@@ -1,6 +1,5 @@
 let variables = [];
 
-
 document.getElementById("variable-submit").addEventListener("click", function (e) {
 
   e.preventDefault();
@@ -11,6 +10,9 @@ document.getElementById("variable-submit").addEventListener("click", function (e
   createVariableObjects(name, 1, number);
 
   console.log(variables);
+
+  xmlConverter.createXML(variables);
+
 });
 
 function createVariableObjects(name, i, total) {
