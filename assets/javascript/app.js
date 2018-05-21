@@ -9,9 +9,7 @@ document.getElementById("variable-submit").addEventListener("click", function (e
 
   createVariableObjects(name, 1, number);
 
-  console.log(variables);
-
-  xmlConverter.createXML(variables);
+  document.getElementById("xml-code").value = xmlConverter.createAllXML(variables);
 
 });
 
@@ -37,9 +35,9 @@ function createVariableObjects(name, i, total) {
 
 function variableNamer(name, i) {
   if (i < 10) {
-    return `~${name}0${i}`;
+    return `${name}0${i}`;
   } else {
-    return `~${name}${i}`;
+    return `${name}${i}`;
   }
 }
 

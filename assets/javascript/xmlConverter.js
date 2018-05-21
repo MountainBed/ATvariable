@@ -15,46 +15,61 @@ const xmlConverter = {
 
   createLimits: function (low, high) {
 
-    let temp = `  <limits>
-    <limit type="ge">${low}</limit>
-    <limit type="le">${high}</limit>
-  </limits>`
+    let temp = `
+    <limits>
+      <limit type="ge">${low}</limit>
+      <limit type="le">${high}</limit>
+    </limits>`
 
     return temp;
   },
 
   createExclusions: function (current) {
-    let temp = "  <excl>\n";
+    let temp = `
+    <excl>`;
 
     for (let i = 0; i < current; i++) {
-      temp += `     <expr>${this.variables[i].name}</expr>\n`;
+      temp += `\n       <expr>~${this.variables[i].name}</expr>`;
     }
 
-    temp += "  </excl>";
+    temp += `
+    </excl>`;
 
     return temp;
   },
 
-  createXML: function (variables) {
+  createVariableXML: function (variable, i) {
+    let tempVar = "";
+
+    tempVar += this.createName(variable.name);
+    tempVar += `
+<constraint>`;
+
+    tempVar += this.createLimits(1, this.variables.length);
+
+    tempVar += this.createExclusions(i);
+
+    tempVar += `
+    </constraint>
+</var>`;
+
+    tempVar += `\n`;
+
+    return tempVar;
+  },
+
+  createAllXML: function (variables) {
 
     this.variables = variables;
 
+    let tempAllVariables = "";
+
     for (let i = 0; i < variables.length; i++) {
 
-      console.log(`VARIABLE ${i + 1}`);
+      tempAllVariables += this.createVariableXML(variables[i], i);
 
-      console.log(this.createName(variables[i].name));
-
-      console.log(`<constraint>`);
-
-      console.log(this.createLimits(1, variables.length));
-
-      console.log(this.createExclusions(i));
-
-      console.log(` </constraint>
-</var>`);
-
-      console.log(`\n`);
     }
+
+    return tempAllVariables;
   }
 }
