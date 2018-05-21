@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <var name="i01" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+      </constraint>
+    </var>
+    <var name="i02" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i03" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i04" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i05" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i06" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i07" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i08" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i09" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i10" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i11" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i12" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i13" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i14" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+          <expr>~i13</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i15" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+          <expr>~i13</expr>
+          <expr>~i14</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i16" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+          <expr>~i13</expr>
+          <expr>~i14</expr>
+          <expr>~i15</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i17" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+          <expr>~i13</expr>
+          <expr>~i14</expr>
+          <expr>~i15</expr>
+          <expr>~i16</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i18" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+          <expr>~i13</expr>
+          <expr>~i14</expr>
+          <expr>~i15</expr>
+          <expr>~i16</expr>
+          <expr>~i17</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i19" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+          <expr>~i13</expr>
+          <expr>~i14</expr>
+          <expr>~i15</expr>
+          <expr>~i16</expr>
+          <expr>~i17</expr>
+          <expr>~i18</expr>
+        </excl>
+      </constraint>
+    </var>
+    <var name="i20" type="int">
+      <constraint>
+        <limits>
+          <limit type="ge">1</limit>
+          <limit type="le">20</limit>
+        </limits>
+        <excl>
+          <expr>~i01</expr>
+          <expr>~i02</expr>
+          <expr>~i03</expr>
+          <expr>~i04</expr>
+          <expr>~i05</expr>
+          <expr>~i06</expr>
+          <expr>~i07</expr>
+          <expr>~i08</expr>
+          <expr>~i09</expr>
+          <expr>~i10</expr>
+          <expr>~i11</expr>
+          <expr>~i12</expr>
+          <expr>~i13</expr>
+          <expr>~i14</expr>
+          <expr>~i15</expr>
+          <expr>~i16</expr>
+          <expr>~i17</expr>
+          <expr>~i18</expr>
+          <expr>~i19</expr>
+        </excl>
+      </constraint>
+    </var>
+<array name="dummy">
+<data expr="FillArray(~rand01,1,0)"/>
+<data expr="FillArray(~rand02,2,0)"/>
+<data expr="FillArray(~rand03,3,0)"/>
+<data expr="FillArray(~rand04,4,0)"/>
+<data expr="FillArray(~rand05,5,0)"/>
+</array>
+  </objects>
+
+  <windows>
+    <window name="top">
+      <step name="step1">
+<rvxml>
+<document stringtags="0">
+<text>An organization researcher asks </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">n</control>
+<text br="0"> employees in a company to rate their job satisfaction on a 5-point scale from 1</text>
+<tdxsym br="0">=</tdxsym>
+<text br="0">very unsatisfied to 5</text>
+<tdxsym br="0">=</tdxsym>
+<text br="0">very satisfied. The ratings are given below. Make (a) a frequency table and (b) a histogram. Then (c) describe the general shape of the distribution.</text>
+<text></text>
+<control vshiftabs="1" spacing="1" textstyle="Normal" data="">data.1</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.2</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.3</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.4</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.5</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.6</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.7</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.8</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.9</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.10</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.11</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.12</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.13</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.14</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.15</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.16</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.17</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.18</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.19</control>
+<text br="0">, </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">data.20</control>
+<text br="0"> </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">DT1</control>
+</document>
+</rvxml>
+      </step>
+    </window>
+    <window name="bottom">
+      <step name="step2a1">
+        <msgwrong cw="70" ch="0">
+          <display step="msgfreq"/>
+        </msgwrong>
+<msgfinal cw="70" ch="0">
+<display step="msg2a1"/>
+</msgfinal><rvxml>
+<document stringtags="0">
+<text>(a) Make a frequency table. Start by filling out the rows that correspond to </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.1</control>
+<text br="0"> through </text>
+<control br="0" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.5</control>
+<text br="0"> rating.</text>
+<text textstyle="Instructions">(Type integers or decimals. Do not round.)</text>
+<table rows="6" cols="6" borderstyle="color" borderhspacing="0" bordervspacing="0" cellborderstyle="color" cellborderwidth="1" cellhspacing="0" cellpadding="0" cellvspacing="0" color="clNone">
+<row>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle">
+<text parastyle="Center">Rating</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Frequency</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Percent</text>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+</table>
+</document>
+</rvxml>
+      </step>
+      <step name="step3b1">
+<rvxml>
+<document stringtags="0">
+<text>(b) Make a histogram.</text>
+<text></text>
+<control spacing="1" textstyle="Normal" data="">M1</control>
+</document>
+</rvxml>
+      </step>
+      <step name="step4c1">
+<rvxml>
+<document stringtags="0">
+<text>(c) What is the general shape of the distribution?</text>
+<text></text>
+<control spacing="1" textstyle="Normal" data="">M2</control>
+</document>
+</rvxml>
+      </step>
+    </window>
+    <window name="feedback">
+      <step name="msg1">
+<rvxml>
+<document stringtags="0">
+<text>Use either technology or a by-hand method to make the histogram. For the by-hand method, first make a frequency table. Then put the values along the bottom of the page, from left to right, from lowest to highest. Then make a scale of frequencies along the left edge of the page that goes from 0 at the bottom to the highest frequency for any value. Make a bar above each value with a height for the frequency of that value. For technology, enter the given data into statistical software and make the histogram.</text>
+</document>
+</rvxml>
+      </step>
+      <step name="msg2">
+<rvxml>
+<document stringtags="0">
+<text>In a rectangular distribution, all the values have approximately the same frequency. In a symmetrical distribution, the pattern of frequencies on the left and right side are approximately mirror images of each other. In a skewed distribution, the scores pile up on one side of the middle and are spread out on the other side. If the scores pile up on the left, the distribution is skewed to the right, and if the scores pile up on the right, the distribution is skewed to the left. A distribution is unimodal if there is one very high area. A distribution is bimodal if there are two fairly equal high points.</text>
+</document>
+</rvxml>
+      </step>
+      <step name="msgfreq">
+<rvxml>
+<document stringtags="0">
+<text>At least one of your answers is incorrect. Use either technology or a by-hand method to make the frequency table. For the by-hand method, first make a list of each possible value, from lowest to highest. Then go one by one through the scores, making a mark for each score next to its value on the list. Next make a table that displays the number of marks beside each value. For technology, enter the given data into statistical software and make the frequency table. Enter your answers as integers or decimals.</text>
+</document>
+</rvxml>
+      </step>
+      <step name="msg2a1">
+<rvxml>
+<document stringtags="0">
+<text>Sorry, your answers are not correct.</text>
+<text></text>
+<text>Correct answer:</text>
+<table parastyle="Normal.2" rows="6" cols="6" borderstyle="color" borderhspacing="0" bordervspacing="0" cellborderstyle="color" cellborderwidth="1" cellhspacing="0" cellpadding="0" cellvspacing="0" color="clNone">
+<row>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle">
+<text parastyle="Center">Children</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Frequency</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Percent</text>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+</table>
+<text></text>
+<text>Your answer:</text>
+<table parastyle="Normal.2" rows="6" cols="6" borderstyle="color" borderhspacing="0" bordervspacing="0" cellborderstyle="color" cellborderwidth="1" cellhspacing="0" cellpadding="0" cellvspacing="0" color="clNone">
+<row>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle">
+<text parastyle="Center">Children</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Frequency</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Percent</text>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq1.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per1.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq2.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per2.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq3.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per3.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq4.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per4.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq5.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per5.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+</table>
+</document>
+</rvxml>
+      </step>
+    </window>
+    <window name="popups">
+      <step name="reference01">
+<rvxml>
+<document stringtags="0">
+<table rows="6" cols="6" borderstyle="color" borderhspacing="0" bordervspacing="0" cellborderstyle="color" cellborderwidth="1" cellhspacing="0" cellpadding="0" cellvspacing="0" color="clNone">
+<row>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle">
+<text parastyle="Center">Children</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Frequency</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Percent</text>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+</table>
+</document>
+</rvxml>
+      </step>
+      <step name="reference02">
+<rvxml>
+<document stringtags="0">
+<table rows="6" cols="6" borderstyle="color" borderhspacing="0" bordervspacing="0" cellborderstyle="color" cellborderwidth="1" cellhspacing="0" cellpadding="0" cellvspacing="0" color="clNone">
+<row>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle">
+<text parastyle="Center">Children</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Frequency</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Percent</text>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq1.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per1.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq2.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per2.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq3.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per3.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq4.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per4.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">freq5.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">per5.response</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+</table>
+</document>
+</rvxml>
+      </step>
+      <step name="reference03">
+<rvxml>
+<document stringtags="0">
+<table rows="6" cols="6" borderstyle="color" borderhspacing="0" bordervspacing="0" cellborderstyle="color" cellborderwidth="1" cellhspacing="0" cellpadding="0" cellvspacing="0" color="clNone">
+<row>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle">
+<text parastyle="Center">Children</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Frequency</text>
+</cell>
+<cell></cell>
+<cell colspan="2" th="col" width="100" color="$00FFFFCC" valign="middle" leftbordervisible="0">
+<text parastyle="Center">Percent</text>
+</cell>
+<cell></cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.1</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.2</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.3</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.4</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+<row>
+<cell width="30" valign="middle" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">bins.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequency.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text parastyle="Normal.1"></text>
+</cell>
+<cell width="50" valign="middle" leftbordervisible="0" rightbordervisible="0" topbordervisible="0">
+<control parastyle="Normal.1" vshiftabs="1" spacing="1" textstyle="Normal" data="">frequencyPer.5</control>
+</cell>
+<cell width="25" valign="middle" leftbordervisible="0" topbordervisible="0">
+<text>%</text>
+</cell>
+</row>
+</table>
+</document>
+</rvxml>
+      </step>
+    </window>
+  </windows>
+
+  <layout type="topbottom">
+    <frame window="top"/>
+    <frame window="bottom"/>
+  </layout>
+
+  <controller>
+    <display step="step1"/>
+    <display step="step2a1"/>
+    <display step="step3b1"/>
+    <display step="step4c1"/>
+  </controller>
+
+</tdx>
