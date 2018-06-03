@@ -1,13 +1,8 @@
 const xmlConverter = {
   variables: [],
 
-  test: function () {
-
-    console.log(`working --- xml converter`);
-
-  },
-
   createName: function (name) {
+
     let temp = `<var name="${name}" type="int">`
 
     return temp;
@@ -25,6 +20,7 @@ const xmlConverter = {
   },
 
   createExclusions: function (current) {
+
     let temp = `
     <excl>`;
 
@@ -36,9 +32,11 @@ const xmlConverter = {
     </excl>`;
 
     return temp;
+
   },
 
   createVariableXML: function (variable, i) {
+
     let tempVar = "";
 
     tempVar += this.createName(variable.name);
@@ -56,6 +54,7 @@ const xmlConverter = {
     tempVar += `\n`;
 
     return tempVar;
+
   },
 
   createAllXML: function (variables) {
@@ -71,5 +70,6 @@ const xmlConverter = {
     }
 
     return tempAllVariables;
+
   }
 }
