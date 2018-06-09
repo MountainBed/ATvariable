@@ -11,20 +11,31 @@
 
 </head>
 
-<body>
-  <form action="">
-    Variable name:
+<body class="container">
+  <form class="main-text" action="">
+    <span>
+        Variable name:
+    </span>
     <input type="text" id="variable-name">
-    <br> Number of variables:
+    <br>
+    <span>
+        Number of variables:
+    </span>
     <input type="number" id="number">
     <br>
     <button id="variable-submit">Submit</button>
-    <button id="clear">Clear</button>
   </form>
+<div class="container-textarea">
+    <textarea readonly id="xml-code" cols="50" rows="20">
+      </textarea>
+      <div class="textarea-buttons">
+          <button id="copy">Copy</button>
+          <button id="clear">Clear</button>
+      </div>
 
-  <textarea readonly id="xml-code" cols="100" rows="30">
 
-  </textarea>
+</div>
+
 </body>
 <script src="./assets/javascript/xmlConverter.js"></script>
 <script src="./assets/javascript/app.js"></script>

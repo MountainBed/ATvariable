@@ -26,6 +26,17 @@ document.getElementById("clear").addEventListener("click", function (e) {
 
 });
 
+// Adds text to clipboard
+document.getElementById("copy").addEventListener("click", function (e) {
+  let copyText = document.getElementById("xml-code");
+
+  copyText.select();
+
+  document.execCommand("copy");
+
+  console.log("copied");
+})
+
 // Takes user input and creates necessary exclusions and names; pushes into
 function createVariableObjects(name, i, total) {
 
@@ -48,8 +59,6 @@ function createVariableObjects(name, i, total) {
     return false;
 
   }
-
-
 }
 
 // Creates variable name in the format ##
@@ -63,6 +72,7 @@ function variableNamer(name, i) {
     return `${name}${i}`;
 
   }
+
 }
 
 // Determines previous variables that should be excluded
@@ -98,5 +108,9 @@ function clearBox(elementId) {
 function resetVariables() {
 
   variables = [];
+
+  document.getElementById("variable-name").value = "";
+
+  document.getElementById("number").value = "";
 
 }

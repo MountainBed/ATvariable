@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.main-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.textarea-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#copy {
+  width: 175px;
+  margin: 15px 36px 0px 0px;
+}
+
+#clear {
+  width: 175px;
+  margin: 15px 0px 0px 36px;
+}
